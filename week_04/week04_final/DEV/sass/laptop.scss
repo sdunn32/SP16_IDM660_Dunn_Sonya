@@ -1,0 +1,297 @@
+/* week 4 files */
+@media screen and (min-width: 960px){
+	body{
+		background-color: yellow;
+	}
+}
+
+/* SIMPLE RESET*/
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	margin:0;
+	padding:0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* FONT STYLES */
+
+html, aside ol li:nth-of-type(2) {
+	font-family: 'Merriweather', serif;
+	line-height: 1.125em;
+}
+
+ h3, h4, h5, h6, {
+	font-family: 'Oswald', sans-serif;
+}
+
+/* STUDENT STYLES */
+
+html {
+	background-color: white;
+	color:#333;
+}
+
+body {
+	width: 90%;
+	margin: 20px auto 0 auto;
+}
+
+img {
+	width: 100%;
+}
+
+/* HEADER */
+
+header {
+	width: 90%;
+	margin: 0 auto 80px auto;
+	padding: 0.5em 8.33333333%; 
+	background-color: #eee;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 4.5em;
+	line-height: 1em;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+header h1 a {
+	color:#333;
+	text-decoration: none;
+}
+
+header .nav {
+	font-size: 0.8em;
+}
+
+header .nav ul {
+	text-align: center;
+}
+
+header .nav ul li {
+	display: inline;
+	margin: 0 5px;
+	font-weight: 300;
+	font-size: 1.125em;
+}
+
+header .nav ul li a {
+	color:#333;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+/* SECTION */
+
+.section {
+	width: 64.58%;  
+	margin: 0 10px;
+	float: left;
+}
+
+/* MARCOTTE REF: target/context = result */
+
+.section h1 {
+	font-size: 3.375em;
+	line-height: 1em;
+	margin: 0 0 80px 0;
+}
+
+.section article {
+	margin: 80px 0;
+}
+
+.section article:first-of-type {
+	margin-top: 40px;
+}
+
+.section article h2 {
+	font-size: 3em;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.section article h2 span:first-of-type {
+	display: table-cell;
+	background-color: orange;
+	color: white;
+	font-size: 0.666em;
+	font-weight: 300;
+	vertical-align: center;
+	position: absolute;
+	top: 60px;
+	left: 20px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 10px 10px 30px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 30px -9px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 30px -9px rgba(0,0,0,0.75);
+	-ms-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  transform: rotate(-20deg);
+}
+
+.section article h2 span:nth-of-type(2) {
+	font-weight: 300;
+	font-size: 0.666em;
+}
+
+.section article img {
+	margin-bottom: 20px;
+}
+
+.section article p {
+	margin-bottom: 10px;
+}
+
+/* ASIDE */
+
+.aside {
+	width: 22.916%;
+	margin: 0 10px;
+	float: right;
+}
+
+.aside ol {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+.aside ol li {
+	list-style-position: inside;
+	margin-bottom: 50px;
+	font-size: 1.25em;
+}
+
+.aside ol li h1 {
+	margin-bottom: 10px;
+}
+
+.aside ol li:first-of-type {
+	list-style: none;
+	margin-bottom: 0;
+	font-size: 1em;
+}
+
+.aside ol li:nth-of-type(2) {
+	list-style: none;
+	font-size: 0.8em;
+	margin-bottom: 20px;
+}
+
+.aside ol li a {
+	color: #333;
+	text-decoration: none;
+}
+
+.aside ol li img {
+	float: left;
+	margin-top: 10px;
+}
+
+.aside ol li:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* FOOTER */
+
+footer {
+	width: 90%;
+	margin: 0 10px;
+	padding-top: 4.1666666667%;
+	clear:both;
+	margin-bottom: 50px;
+}
+
+footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer h1 {
+	font-size: 1.25em;
+	line-height: 1em;
+	margin: 0 0 5px 0;
+}
+
+footer p {
+	font-size: 0.8em;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+footer a {
+	color:#333;
+	text-decoration: none;
+}
+
+footer ol {
+	width: 33%;
+	float: left;
+	list-style-position: inside;
+}
+
+footer ol li h2 {
+	font-size: 1em;
+}
+
+footer ol li:first-of-type {
+	list-style: none;
+	margin-bottom: 5px;
+}
+
+footer nav {
+	width: 33%;
+	float: left;
+}
+
+footer nav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+a:hover {
+	color:orange;
+	text-decoration: none;
+}
+
+
+/*
+  ========================================
+  Clearfix
+  ========================================*/
+
+.groups:before,
+.groups:after {
+  content: "";
+  display: table;
+}
+.groups:after {
+  clear: both;
+}
+.groups {
+  clear: both;
+  *zoom: 1;
+}
