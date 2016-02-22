@@ -1,0 +1,10 @@
+/* DESKTOP */
+#site-header {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 5px; }
+
+/*ref sass setup: sass --watch DEV/sass:PUBLIC/css --style compressed */
+
+/*# sourceMappingURL=css.css.map */
