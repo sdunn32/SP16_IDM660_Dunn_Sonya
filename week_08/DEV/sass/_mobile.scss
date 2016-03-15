@@ -1,0 +1,52 @@
+/* ----------- Mobile Styling----------- */
+
+/* Media for smaller devices */
+ @media all and (max-width: 480px) {
+/*.container {
+width: 100%;
+}*/
+
+h1{
+color: #000066; /*dark blue*/;
+font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+font-size: 22px;
+text-align: center;
+margin: 1.5%;
+border-bottom: 2px solid #f97e3b; /*orange*/
+}
+
+section {
+display: block;
+width: 94%;
+}
+
+aside {
+display: block;
+width: 94%;
+border: none;
+}
+
+nav ul li {
+display: block;
+width: 94%;
+}
+
+nav a:hover { background-color: #5E9732; } /*green*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

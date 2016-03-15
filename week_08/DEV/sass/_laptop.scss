@@ -1,0 +1,87 @@
+/* ----------- Laptop Styling----------- */
+
+ @media screen and (max-width: 640px) {
+	 
+h1{
+ 	color: #000066; /*dark blue*/;
+ 	font-family: "Playfair Display", Helvetica, Arial, sans-serif;
+ 	border-bottom: 2px solid #f97e3b; /*orange*/
+}	
+
+nav { margin: 0; }
+
+.toggle + a, .menu { display: none; }
+
+.toggle {
+display: block;
+background-color: #000066; /*dark blue*/
+padding: 0 20px;
+color: #FFF;
+font-size: 20px;
+line-height: 60px;
+text-decoration: none;
+border: none;
+}
+
+.toggle:hover { background-color: #5E9732; } /*green*/
+[id^=drop]:checked + ul { display: block; }
+
+nav ul li {
+display: block;
+width: 100%;
+}
+
+nav ul ul .toggle,
+nav ul ul a { padding: 0 40px; }
+
+nav ul ul ul a { padding: 0 80px; }
+
+nav a:hover,
+nav ul ul ul a { background-color: #515050; } /*gray*/
+
+nav ul li ul li .toggle,
+nav ul ul a { background-color: #515050; } /*gray*/
+
+nav ul ul {
+float: none;
+position: static;
+color: #ffffff;
+}
+
+nav ul ul li:hover > ul,
+nav ul li:hover > ul { display: none; }
+
+nav ul ul li {
+display: block;
+width: 100%;
+}
+
+nav ul ul ul li { position: static;}
+
+}
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
